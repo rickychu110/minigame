@@ -1,0 +1,124 @@
+body {
+  background-color: #ffcc00;
+}
+
+#mainContent {
+  margin-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.iconBG {
+  background-color: #453b12;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.iconBG > i {
+  font-size: 13px;
+  color: #ffcc00;
+}
+
+#iconSet {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+div.col-12 > nav {
+  margin-top: 50px;
+}
+
+#navBarDiv {
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 14px;
+}
+
+div.carousel-item {
+  position: relative;
+}
+
+#messagePanel {
+  position: absolute;
+  top: 33.3%;
+  bottom: 33.3%;
+  left: 33.3%;
+  right: 33.3%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 0.8;
+}
+
+div.message {
+  text-decoration: underline;
+  border-top: white solid 3px;
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+div.readmore {
+  border-bottom: white solid 3px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #messagePanel {
+    display: none;
+  }
+}
+
+.cards {
+  background-color: white;
+  width: 320px;
+  border: unset 2px;
+}
+
+.cardimg {
+  height: 220px;
+  width: 300px;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.cardsub {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.setview {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(236, 143, 35);
+}
+.cameraicon {
+  font-size: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
