@@ -1,0 +1,128 @@
+#mainContent {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: gray solid 1px;
+  border-radius: 5px;
+}
+
+.levelSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#displayPlayers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.playerWinRound {
+  width: 100px;
+  border: gray solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px #15bcac;
+}
+
+.roundContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#round {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.turn {
+  margin-left: 10px;
+}
+
+#gameboard {
+  width: 300px;
+  background-color: #15bcac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+}
+
+.grid {
+  width: 30px;
+  height: 30px;
+  border: gainsboro solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cell0 {
+  border-top: none;
+  border-left: none;
+}
+
+#cell1 {
+  border-top: none;
+}
+
+#cell2 {
+  border-top: none;
+  border-right: none;
+}
+
+#cell3 {
+  border-left: none;
+}
+
+#cell5 {
+  border-right: none;
+}
+
+#cell6 {
+  border-left: none;
+  border-bottom: none;
+}
+
+#cell7 {
+  border-bottom: none;
+}
+
+#cell8 {
+  border-right: none;
+  border-bottom: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#restart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restartText {
+  color: #15bcac;
+  font-weight: 300;
+}

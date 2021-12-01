@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./tic.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <div id="mainContent">
+            <div id="level">
+                <div class="levelSection">
+                    <select>
+                        <option>Easy</option>
+                        <option>Normal</option>
+                    </select>
+                    <i class="fas fa-share-alt"></i>
+                </div>
+            </div>
+            <div id="players">
+                <div id="displayPlayers">
+                    <div class="playerWinRound">
+                        <div class="roundContent">
+                            <i class="fas fa-times"></i>
+                            <span id="XWin">0</span>
+                        </div>
+                    </div>
+                    <div class="playerWinRound">
+                        <div class="roundContent">
+                            <i class="far fa-circle"></i>
+                            <span id="OWin">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="round">
+                <div id="currentPlayer"></div>
+                <span class="turn">Turn</span>
+            </div>
+            <div id="gameboard">
+                <div id="board">
+                    <div id="cell0" class="grid"></div>
+                    <div id="cell1" class="grid"></div>
+                    <div id="cell2" class="grid"></div>
+                    <div id="cell3" class="grid"></div>
+                    <div id="cell4" class="grid"></div>
+                    <div id="cell5" class="grid"></div>
+                    <div id="cell6"class="grid"></div>
+                    <div id="cell7" class="grid"></div>
+                    <div id="cell8" class="grid"></div>
+                </div>
+            </div>
+            <div id="restart">
+                <button id="restart">
+                    <span class="restartText">RESTART GAME</span>
+                </button>
+            </div>
+        </div>
+        <script src="./tic.js"></script>
+    </body>
+</html>
